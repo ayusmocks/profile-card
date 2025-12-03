@@ -1,0 +1,93 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;}
+html,body{height: 100%;width: 100%;}
+
+*{font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profilebox{
+    background: #ff574a;
+    text-align: center;
+    color:#fff;
+    position: relative;
+    border-radius: 20px;
+    width: 350px;
+    height: 450px;
+}
+
+#pfp{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 6px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+#menu{
+    width: 25px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+#setting{
+    width: 25px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+p{
+    position: absolute;
+    top: 250px;
+    left: 110px;
+}
+
+h1{
+     position: absolute;
+    top: 200px;
+    left: 110px;
+}
+
+#ig{
+    height: 65px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+}
+
+#gh{
+    height: 65px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+    padding: 4px;
+}
+
+#x{
+    height: 65px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    bottom: 50px;
+    right: 40px;
+}
